@@ -1,0 +1,83 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="wineduc" version="4">
+  <OBJECT>
+    <ID name="wineduc" mc="Standard.Package" uid="9e6bb6bd-d2e7-4dd0-9afa-aaf5b92028d8"/>
+    <PID name="wineduc" mc="Standard.Project" uid="625a795c-1bf5-4acb-a2d2-f303dc914cfe"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[wineduc]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="chef d'etablissement" mc="Standard.Actor" uid="b216618f-050d-4525-8bc2-4a7c102bffdd"/>
+        <COMPID name="Gerre le reglage des etablid" mc="Standard.UseCase" uid="05b58f76-c7bf-4397-9d66-4a79799e158d"/>
+        <COMPID name="Gerre le reglage de paiement" mc="Standard.UseCase" uid="f80a9080-2504-44a8-9c67-d890df95ac90"/>
+        <COMPID name="gerer les planifications" mc="Standard.UseCase" uid="cb391ad3-3004-4b0c-a542-b48e693e4b82"/>
+        <COMPID name="gerer les cantines" mc="Standard.UseCase" uid="3f94e2fb-0000-4c56-8380-abad1fe86086"/>
+        <COMPID name="gerer personnel administratif de l’etablissement" mc="Standard.UseCase" uid="9a6c6966-bbaf-418b-83b4-b8d2bd931042"/>
+        <COMPID name="gerer les enseignants" mc="Standard.UseCase" uid="89c4430d-c68c-420e-8cb5-9c9816d2cafc"/>
+        <COMPID name="gerer les matieres" mc="Standard.UseCase" uid="18ff22df-08fa-4cb0-814d-ff567431804c"/>
+        <COMPID name="gerer les eleves cote SG" mc="Standard.UseCase" uid="fb065a2e-af2f-4da8-8333-f1739782c7bc"/>
+        <COMPID name="gerer les salles de classes" mc="Standard.UseCase" uid="e8bee2d0-3be8-4a9e-bece-aa68f0fd90ec"/>
+        <COMPID name="gerer les classes" mc="Standard.UseCase" uid="0dcef0eb-4570-448d-883f-63808885c5d1"/>
+        <COMPID name="gerer les salles classes" mc="Standard.UseCase" uid="ac7073d6-fce9-4ba2-bd34-8ba31a8a6d3c"/>
+        <COMPID name="gerer les services" mc="Standard.UseCase" uid="70133581-06ad-4fdc-975b-3e14ca7df018"/>
+        <COMPID name="gerer les bibliotheques" mc="Standard.UseCase" uid="50827e8f-f221-4cec-b4b9-f84c50a13970"/>
+        <COMPID name="gerer les transports" mc="Standard.UseCase" uid="2b17bf21-9fb3-4d2d-9ca6-10f0b4b51933"/>
+        <COMPID name="gerer l'infirmeries" mc="Standard.UseCase" uid="22c0eb22-8471-4e14-b6a2-be80e3170864"/>
+        <COMPID name="gerer le materiel didactique" mc="Standard.UseCase" uid="95243857-1e49-44de-adc9-de905af4c84c"/>
+        <COMPID name="gerer les atelier" mc="Standard.UseCase" uid="3caa9221-f7bc-4f29-98c0-ae8b890d853c"/>
+        <COMPID name="gerer les complexes sportif" mc="Standard.UseCase" uid="07cf75be-c951-415c-ad4c-215f4736fea2"/>
+        <COMPID name="gerer les forumes" mc="Standard.UseCase" uid="19181dbc-5415-4090-9925-564642955bd7"/>
+        <COMPID name="enseignant" mc="Standard.Actor" uid="5be2fab6-d400-4bbc-9139-f44e74464c3e"/>
+        <COMPID name="remplire les notes" mc="Standard.UseCase" uid="99e0ab26-68db-4423-933b-5809aec5a633"/>
+        <COMPID name="remplire les notes" mc="Standard.UseCase" uid="41c9f435-623b-4277-b79c-039c4c832a70"/>
+        <COMPID name="censeur" mc="Standard.Actor" uid="40b54dcd-26a6-405e-95b1-cb487f958921"/>
+        <COMPID name="intendant" mc="Standard.Actor" uid="91d1e8b9-115d-42d6-8f00-1a182da9c9fa"/>
+        <COMPID name="SG" mc="Standard.Actor" uid="ba6d19e9-6c00-44bc-af04-36ef4e774171"/>
+        <COMPID name="gerer les eleves cote intendant" mc="Standard.UseCase" uid="3bebb939-5313-4c89-b0af-1899def77605"/>
+        <COMPID name="bibliothequere" mc="Standard.Actor" uid="dc6a3496-73ae-4719-aa05-387957714157"/>
+        <COMPID name="infirmier" mc="Standard.Actor" uid="8a20245f-9fcc-4a33-938e-ac21c98fc821"/>
+        <COMPID name="chef du personnel" mc="Standard.Actor" uid="ea96383f-4d46-48e5-b46b-9d99164ae4a0"/>
+        <COMPID name="responsable affaire scoliaire" mc="Standard.Actor" uid="94c6cbca-186e-4359-9357-66474470c232"/>
+        <COMPID name="chef cmptable" mc="Standard.Actor" uid="ebd79c43-175d-4cc3-9b40-cd7e3ace2549"/>
+        <COMPID name="planifficateur" mc="Standard.Actor" uid="ab0d1e33-e933-49ae-8ea1-5a10748d30b7"/>
+        <COMPID name="directeur" mc="Standard.Actor" uid="e2d8b811-dfe3-4218-8f46-40a675150cb7"/>
+        <COMPID name="enseignant" mc="Standard.Actor" uid="5b7c2590-50ed-4712-bfcb-80438ca75411"/>
+        <COMPID name="gerer les niveau d'acces" mc="Standard.UseCase" uid="1a588ace-16c5-411e-ae2c-d8d5f7043d85"/>
+        <COMPID name="gerer les sous seystemes" mc="Standard.UseCase" uid="9ea3bd81-efd6-4b06-aab9-bbb600927522"/>
+        <COMPID name="gerer les posts" mc="Standard.UseCase" uid="8305a03c-5b13-4303-8b11-643105dd1548"/>
+        <COMPID name="gerer les periodes" mc="Standard.UseCase" uid="09177f56-75b2-4e3a-a06e-d2f252eb0d9d"/>
+        <COMPID name="gerer les paiement" mc="Standard.UseCase" uid="94a023ed-ee4b-4558-a09a-114cc1c130dc"/>
+        <COMPID name="gerer les emploi de temps" mc="Standard.UseCase" uid="87fd5027-4e8a-46c3-9e83-cda7b3a89eb4"/>
+        <COMPID name="gerer les evaluations" mc="Standard.UseCase" uid="95c8731c-c836-45de-827d-848ed8a11e41"/>
+        <COMPID name="gerer les evenements" mc="Standard.UseCase" uid="a4b57a3f-858a-4f00-87b3-4519b6440f50"/>
+        <COMPID name="gerer les fournitures" mc="Standard.UseCase" uid="0d7d13ac-81f1-4b0a-af8b-018281eea852"/>
+        <COMPID name="gerer les cantines" mc="Standard.UseCase" uid="3cd0006f-0261-41b6-b48e-f051c7041a08"/>
+        <COMPID name="gerer les enseignants" mc="Standard.UseCase" uid="b9b95cbe-5fa3-41f0-ba7d-4b14f4d54a31"/>
+        <COMPID name="gerer les membres administratifs" mc="Standard.UseCase" uid="99ddb638-4268-4eb0-82ae-af00505aa3df"/>
+        <COMPID name="gerer les matieres" mc="Standard.UseCase" uid="31b78cc8-20a2-431d-9208-72dfe6f569fa"/>
+        <COMPID name="gerer les eleves" mc="Standard.UseCase" uid="6f1bb6c0-bfa2-4442-a9b0-656906ff47fe"/>
+        <COMPID name="gerer les salles de classes" mc="Standard.UseCase" uid="36329c21-ead0-4787-8dfb-c54e4bbd1767"/>
+        <COMPID name="gerer les bulletins" mc="Standard.UseCase" uid="91eb0848-63da-4d71-b849-5621a5581ca6"/>
+        <COMPID name="gerer la fiche de presence" mc="Standard.UseCase" uid="2cd11fc1-f073-45b2-a6df-03a25eda62eb"/>
+        <COMPID name="gerer les bibliotheques" mc="Standard.UseCase" uid="57472f00-2288-4801-b6d0-1df60de692cf"/>
+        <COMPID name="gerer les transports" mc="Standard.UseCase" uid="d4f9db68-0690-492d-bdc8-720e9e7689ae"/>
+        <COMPID name="gerer l'infirmerie" mc="Standard.UseCase" uid="868069b7-3ad2-4022-b9f7-79edc974fa00"/>
+        <COMPID name="gerer le materiel didactique" mc="Standard.UseCase" uid="a595fea0-f4ef-4ffc-be5b-b8011fd3ca61"/>
+        <COMPID name="gerer les atliers" mc="Standard.UseCase" uid="177308a0-334e-47d7-bfe4-bfc1616f2e3d"/>
+        <COMPID name="gerer le complexe sportif" mc="Standard.UseCase" uid="7627755c-a163-4a05-b56c-d1ddb7d0bb2e"/>
+        <COMPID name="infirmier" mc="Standard.Actor" uid="4bca563c-51e9-405e-b547-4fc9a3c9d1dc"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Diagramme de cas d'utilisation wineduc" mc="Standard.UseCaseDiagram" uid="98872b36-e86f-4116-a49a-8047097f5ce3"/>
+        <COMPID name="use_case_etablissement _primaire" mc="Standard.UseCaseDiagram" uid="d936aac9-5a60-4a9f-ace3-cc8aba68b8cf"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

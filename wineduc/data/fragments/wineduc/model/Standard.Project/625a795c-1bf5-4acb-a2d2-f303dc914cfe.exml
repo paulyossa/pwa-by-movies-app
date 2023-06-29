@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="wineduc" version="4">
+  <OBJECT>
+    <ID name="wineduc" mc="Standard.Project" uid="625a795c-1bf5-4acb-a2d2-f303dc914cfe"/>
+    <ATTRIBUTES>
+      <ATT name="ProjectContext"></ATT>
+      <ATT name="ProjectDescr"></ATT>
+      <ATT name="Name"><![CDATA[wineduc]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Model">
+        <COMPID name="wineduc" mc="Standard.Package" uid="9e6bb6bd-d2e7-4dd0-9afa-aaf5b92028d8"/>
+      </COMP>
+      <COMP relation="DiagramRoot">
+        <COMPID name="wineduc" mc="Infrastructure.DiagramSet" uid="e06b612c-b278-49d4-9e06-c93d1a5777bb"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
